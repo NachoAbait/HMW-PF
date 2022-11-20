@@ -1,3 +1,17 @@
-function laCajaDePandora(numero){
-    // proximamente escribiremos codigo aqui
+function laCajaDePandora(num){
+    if (num % 2 === 0) {
+        return num.toString(2);
+    }else{
+        return num.toString(16)
+    }
+}
+
+
+function agos() {
+    var obj = {
+        nombre: 'Agostina',
+        edad: '26',
+        nacionalidad: 'Argentina'
+    }
+    return obj;
 }
