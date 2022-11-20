@@ -7,3 +7,14 @@ function laCajaDePandora(numero) {
     return hexadecimal;
   }
 }
+
+function andres() {
+  class objeto {
+    constructor(nombre, edad, nacionalidad) {
+      nombre = Andy,
+      edad = 38,
+      nacionalidad = argentino
+    }
+  }
+  return objeto;
+}
